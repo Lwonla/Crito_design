@@ -1,0 +1,12 @@
+header {
+  background-color: #F0EFE9;
+  padding: 16px;
+}
+header .container {
+  display: flex;
+}
+@media (min-width: 2500px) {
+  header .container {
+    width: 2048px;
+  }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Tutorial">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script defer src="js/script.js"></script>
+    <title>Crito</title>
+</head>
+<body>
+    <section>
+        <div class="__container border">
+            <div class="container-fluid mt-3">
+                <div class="row">
+                <div class="col-4 border"></div>
+                <div class="col-6 border">                
+                        <div class="__contact-icon-links">
+                            <a href="#"><i class="fa-regular fa-phone"></i></a>+46 (8) 121 470 50
+                            <a href="#"><i class="fa-regular fa-envelope"></i></a>info@crito.com           
+                            <a href="#"><i class="fa-regular fa-location-dot"></i></a>Sveavägen 31, 111 34 STOCKHOLM
+                        </div>
+                </div>
+                <div class="col border">
+                    <div class="__social-icon-links">
+                        <a href="#"><i class="fa-brands fa-facebook" style="color: #191919;"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-twitter" style="color: #191919;"></i></a> -->
+                        <a href="#"><i class="bi bi-twitter" style="color: #191919;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: #191919;"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin" style="color: #191919;"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="container-fluid mt-3">
+                <div class="row">
+                <div class="col-3 border">                
+                        <div class="__logo">
+                        <img src="images/logotype.svg" alt="logo">
+                        <!-- Crito -->
+                    </div>
+                </div>
+                <div class="col-9 border"></div>
+                <!-- <div class="col border"></div> -->
+                </div>
+            </div>
+            <div class="container-fluid mt-3">
+                <div class="row">
+                <div class="col border"></div>
+                <div class="col border">                
+                    <div class="__nav-links">
+                        <a class="__active" href="index.html">Home</a>
+                        <a href="news.html">News</a>
+                        <a href="service.html">Service</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="col border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row">
+            <div class="col-2 border">col-2</div>
+            <div class="col-8 border">col-8</div>
+            <div class="col-2 border">col-2</div>
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer-section">
+            <img class="background-lines-white-right" src="./images/background-lines-white-right.svg" alt="" />
+            <div class="container">
+                <div class="logo">
+                    <img src="./images/logotype-white.svg" alt="" />
+                            <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+            <div>
+                <h5>Company</h5>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Help</h5>
+                <ul>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Delivery Details</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Resources</h5>
+                <ul>
+                    <li><a href="#">Free eBooks</a></li>
+                    <li><a href="#">Development Tutorial</a></li>
+                    <li><a href="#">How to - Blog</a></li>
+                    <li><a href="#">YouTube Playlist</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Links</h5>
+                <ul>
+                    <li><a href="#">Free eBooks</a></li>
+                    <li><a href="#">Development Tutorial</a></li>
+                    <li><a href="#">How to - Blog</a></li>
+                    <li><a href="#">YouTube Playlist</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="copyright-section">
+            <div class="container">
+                <div>©2023 Crito - Consulting Company Inc. All Rights Reserved</div>
+                <div class="social-media">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook" style="color: #fff;"></i></a>
+                    <a href="https://Twitter.com"><i class="fa-brands fa-twitter" style="color: #fff;"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram" style="color: #fff;"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin" style="color: #fff;"></i></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+</html>
