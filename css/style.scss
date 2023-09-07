@@ -35,6 +35,30 @@ html, body {
 
 }
 
+.btn-transparent{
+    margin-top:20px; //XXXXXXXXXXXX
+    background-color: transparent;
+    border: 1px solid #191919;;
+    color:#191919;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-weight: 600;
+    border-radius: 25px;
+
+    i{
+        margin-left: 5px;
+        font-size: 0.9rem;
+    }
+
+    &:hover{
+        background-color: #191919;
+        border: 1px solid #191919;
+        color:#ffffff;
+        text-decoration: none;
+    }
+
+}
+
 header {
     background-color: #F0EFE9;
     padding: 16px;
@@ -148,5 +172,53 @@ header {
             // @media (min-width: 2500px) {
             //     max-width: 2048px;
             // }
+    }
+}
+
+.showcase{
+    background-color: #F0EFE9;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .content {
+            text-align: center;
+
+            h1 {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 65px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            
+                @media (min-width: 1200px) {
+                    font-size: 65px;
+                }
+
+                @media (min-width: 1400px) {
+                    font-size: 86px;
+                }
+            
+            }
+
+            p {
+                font-size: 20px;
+                padding-bottom: 44px;
+            }
+
+            a {
+                margin-right: 10px;
+            }
+        }
+        
+        img {
+            display: none;
+            margin-right: -50px;
+
+            @media (min-width: 1200px) {
+                display: block;
+            }
+        }
     }
 }
