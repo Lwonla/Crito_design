@@ -181,18 +181,23 @@ header {
     .container{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: left;
 
         .content {
             text-align: center;
+            padding: 50px 0px;;
+
+            @media (min-width: 1200px) {
+                text-align: left;
+            }
 
             h1 {
                 font-family: 'DM Sans', sans-serif;
-                font-size: 65px;
+                font-size: 40px;
                 font-weight: 700;
                 margin-bottom: 20px;
             
-                @media (min-width: 1200px) {
+                @media (min-width: 768px) {
                     font-size: 65px;
                 }
 
@@ -203,12 +208,25 @@ header {
             }
 
             p {
-                font-size: 20px;
-                padding-bottom: 44px;
+                font-size: 15px;
+                padding-bottom: 30px;
+                padding-left : 40px;
+                padding-right : 40px;
+
+                @media (min-width: 768px) {
+                    padding-left : 0px;
+                    padding-right : 0px;
+                }
+
             }
 
             a {
                 margin-right: 10px;
+                display: block;
+                
+                @media (min-width: 768px) {
+                    display: inline-block;
+                }
             }
         }
         
@@ -219,6 +237,52 @@ header {
             @media (min-width: 1200px) {
                 display: block;
             }
+        }
+    }
+}
+
+.brands{
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 0px;
+
+        @media (min-width: 1200px) {
+            padding: 100px 0px;
+        }
+
+        .brand{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            margin-bottom: 30px;
+
+            @media (min-width: 1200px) {
+                margin-bottom: 0px;
+            }
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+}
+
+.features {
+
+
+    .container{
+
+
+        .content{
+            display: flex;
+
+
         }
     }
 }

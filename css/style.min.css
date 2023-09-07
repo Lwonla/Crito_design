@@ -149,18 +149,24 @@ header .container .menu nav a.active:hover {
 .showcase .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 .showcase .container .content {
   text-align: center;
+  padding: 50px 0px;
+}
+@media (min-width: 1200px) {
+  .showcase .container .content {
+    text-align: left;
+  }
 }
 .showcase .container .content h1 {
   font-family: "DM Sans", sans-serif;
-  font-size: 65px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .showcase .container .content h1 {
     font-size: 65px;
   }
@@ -171,11 +177,25 @@ header .container .menu nav a.active:hover {
   }
 }
 .showcase .container .content p {
-  font-size: 20px;
-  padding-bottom: 44px;
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@media (min-width: 768px) {
+  .showcase .container .content p {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 .showcase .container .content a {
   margin-right: 10px;
+  display: block;
+}
+@media (min-width: 768px) {
+  .showcase .container .content a {
+    display: inline-block;
+  }
 }
 .showcase .container img {
   display: none;
@@ -185,4 +205,37 @@ header .container .menu nav a.active:hover {
   .showcase .container img {
     display: block;
   }
+}
+
+.brands .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+@media (min-width: 1200px) {
+  .brands .container {
+    padding: 100px 0px;
+  }
+}
+.brands .container .brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .brands .container .brand {
+    margin-bottom: 0px;
+  }
+}
+.brands .container .brand img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.features .container .content {
+  display: flex;
 }
