@@ -38,7 +38,7 @@ html, body {
 .btn-transparent{
     margin-top:20px; //XXXXXXXXXXXX
     background-color: transparent;
-    border: 1px solid #191919;;
+    border: 1px solid #191919;
     color:#191919;
     text-decoration: none;
     padding: 8px 20px;
@@ -357,6 +357,58 @@ padding-bottom: 100px;
 
     .container{
         display: flex;
+
+        .blue-box {
+            display: flex;
+            z-index: 0;
+            background-color: #BEEBFF;
+            height: 180px;
+            width: 368px;
+            margin-top: 395px;
+            margin-right: -310px;
+
+            .blue-box-titel{
+                display: flex;
+                // flex-direction: row;
+
+                flex-direction: column;
+                // justify-content: center;
+                align-items: left;
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #191919;
+    
+                    margin-bottom: 20px;
+                    padding-top: 30px;
+                    padding-left: 30px;
+                    // padding-right: 30px;
+                }
+    
+                h4 {
+                    color: #F94D1C;
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+            .blue-box-bread{
+
+                p {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 13px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    // padding-bottom: 30px;
+                }
+            }
+            // #BEEBFF
+            // DM 20 bold #191919
+            // founder dm 16 bold #F94D1C
+            // Inter 16 MedItal #191919
+
+        }
 
         img{
 

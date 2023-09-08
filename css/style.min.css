@@ -264,6 +264,41 @@ header .container .menu nav a.active:hover {
 .about .container {
   display: flex;
 }
+.about .container .blue-box {
+  display: flex;
+  z-index: 0;
+  background-color: #BEEBFF;
+  height: 180px;
+  width: 368px;
+  margin-top: 395px;
+  margin-right: -310px;
+}
+.about .container .blue-box .blue-box-titel {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.about .container .blue-box .blue-box-titel h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #191919;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.about .container .blue-box .blue-box-titel h4 {
+  color: #F94D1C;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.about .container .blue-box .blue-box-bread p {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 footer {
   background-color: #0E1021;
   color: #fff;
